@@ -145,28 +145,18 @@ export default function Home() {
 构建可复用组件库，提升开发效率与维护性。"
                 />
                 <Card1
-                  product="https://www.hzmest.com/"
-                  time="2021.10 – 2023.1"
-                  title="Web前端工程师"
-                  company="杭州迈伺特科技"
-                  description="项目：公司官网、后台系统与工业设备用户界面
-开发响应式官网及机器界面，完成高保真页面和交互实现。
- 优化机器界面交互逻辑，提高用户操作效率及界面易用性。
- 与后端团队协作，使用REST API完成数据对接与状态管理，保证设备信息实时更新。"
-                />
-                <Card1
                   product=""
                   time="2017.7 – 2019.1"
-                  title="UI设计师"
+                  title="UI设计师/前端"
                   company="深圳泉后科技"
                   description="项目：广告屏官网、OA 系统界面
- 负责官网及企业内部系统的界面设计与交互优化。
- 输出高保真设计稿，与开发协作，提升界面一致性可用性。
- 建立设计系统，为后续前端开发提供设计支持。"
+负责官网及企业内部系统的界面设计与交互优化。
+ 建立设计系统和规范，与开发协作，提升界面一致性可用性。
+ 参与官网前端页面搭建与样式优化，提升页面响应速度与兼容性。"
                 />
               </ul>
 
-              <div className="pt-8">
+              {/* <div className="pt-8">
                 <a
                   className="mt-10 group/link"
                   href="/resume.pdf"
@@ -194,7 +184,7 @@ export default function Home() {
                     </span>
                   </span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </section>
           {/* project */}
