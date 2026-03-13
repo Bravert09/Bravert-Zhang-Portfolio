@@ -21,10 +21,13 @@ export default function Home() {
                 Bravet Zhang
               </h1>
               <h2 className="text-lg sm:text-xl font-medium tracking-normal">
-                Full Stack AI Engineer
+                AI Software Engineer
               </h2>
+              <p className="max-w-xs tracking-wide text-teal-500">
+                React | Python | FastAPI | LLM{" "}
+              </p>
               <p className="max-w-xs tracking-wide">
-                I create accessible webs with pixel-perfect visual .
+                I build AI-powered, accessible web applications.
               </p>
             </div>
             {/* 导航 */}
@@ -108,14 +111,20 @@ export default function Home() {
             <h3 className="lg:hidden">About</h3>
             <div className="space-y-4">
               <p>
-                我是一名前端工程师，学习能力强，能快速理解新技术并将其应用到实际项目中。{" "}
-                享受解决问题的过程，在开发过程中遇到复杂问题时会耐心分析、逐步拆解并找到合适的解决方案，持续创造价值。
+                我是一名全栈偏前端的工程师，致力于构建智能化的软件产品。通过将大语言模型（LLM）与现代
+                Web 技术结合，开发能够真正帮助用户解决问题的 AI 应用。
               </p>
               <p>
-                最擅长将视觉和逻辑相结合，创造好用又好看的高性能页面，对技术本身充满热情，持续关注前端生态的发展，不断学习和优化自己的技术能力。
+                在工程实践中，我习惯将复杂问题拆解为清晰的系统结构，从产品体验、数据流程与性能优化等方面不断迭代解决方案，让
+                AI 系统既智能又稳定。
               </p>
               <p>
-               喜欢游泳冲浪，拥抱每一朵浪花；经常户外徒步，呼吸每一口自由的新鲜空气。闲时宅家，动手组装，享受创造的乐趣。
+                我对 AI 技术生态保持长期关注，持续探索 LLM、RAG 与 AI Agent
+                等方向，并不断提升自己的工程能力，将 AI
+                能力转化为真实可用的产品价值。
+              </p>
+              <p>
+                生活中喜欢游泳和冲浪，拥抱每一朵浪花；也喜欢徒步和动手创造，在探索世界的同时保持对技术与创造的热情。
               </p>
             </div>
           </section>
@@ -130,9 +139,18 @@ export default function Home() {
                   title="全栈偏前端"
                   company="Socrally AI"
                   description="项目：Socrally.ai – 雅思 AI 教育平台
-开发课程、模考及 AI 交互模块，优化用户操作体验和页面性能。
-使用 React + Next.js + Tailwind 构建高性能 SPA/SSR 页面，熟悉server action与全栈开发模式，实现前后端逻辑整合与高效数据流转。
-优化前端架构，提升前端性能，包括组件懒加载、路由按需加载、虚拟滚动等策略，显著降低首屏加载时间，提升渲染效率和首屏加载速度。"
+                  开发AI教育平台核心功能，包括AI写作智能评分、AI学习助手与模拟考试系统。
+基于大语言模型（LLM API）与 Prompt Engineering 构建AI学习交互模块，实现智能问答、作文批改与学习反馈。
+使用Next.js + React + Tailwind构建AI驱动的全栈应用架构，结合 Server Actions/API Routes 实现前后端一体化开发。
+设计并实现实时AI Chat Interface，支持用户与AI教练进行交互式学习对话。
+探索并实现RAG + 向量检索方案，将课程资料与题库构建为知识库以增强 AI 回答质量。
+优化系统性能与用户体验，通过 代码分割、懒加载、虚拟列表、请求缓存与状态管理优化 提升页面加载速度与渲染效率。
+"
+                  skill1="React"
+                  skill2="TypeScript"
+                  skill3="Python"
+                  skill4="LangChain"
+                  skill5="PostgreSQL"
                 />
                 <Card1
                   product="https://www.posha.com/"
@@ -143,6 +161,11 @@ export default function Home() {
  负责多个AI产品官网和用户界面前端开发，优化动画交互和响应式布局。
 使用 React/Next.js 实现 SSR、SEO 和高性能页面。
 构建可复用组件库，提升开发效率与维护性。"
+                  skill1="React"
+                  skill2="Next.js"
+                  skill3="Tailwind"
+                  skill4="Node.js"
+                  skill5="JavaScript"
                 />
                 <Card1
                   product=""
@@ -153,6 +176,11 @@ export default function Home() {
 负责官网及企业内部系统的界面设计与交互优化。
  建立设计系统和规范，与开发协作，提升界面一致性可用性。
  参与官网前端页面搭建与样式优化，提升页面响应速度与兼容性。"
+                  skill1="HTML"
+                  skill2="CSS"
+                  skill3="JavaScript"
+                  skill4="PS"
+                  skill5="Sketch"
                 />
               </ul>
 

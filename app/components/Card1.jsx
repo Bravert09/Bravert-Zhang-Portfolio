@@ -1,4 +1,6 @@
-export default function Card1({time,product,title,company,description}) {
+import SkillTag from "./SkillTag";
+
+export default function Card1({ time, product, title, company, description,skill1,skill2,skill3,skill4,skill5}) {
   return (
     <li className="">
       <div
@@ -56,16 +58,15 @@ export default function Card1({time,product,title,company,description}) {
             </h3>
           </div>
 
-          <p className="mt-2  text-sm leading-normal">
-          {description}
-          </p>
-          <ul className="flex flex-wrap">
-            <li className="mr-1.5 mt-2">
-              <div className="flex rounded-full items-center text-xs tracking-wide bg-teal-400/20 px-3 py-1 font-medium leading-5 text-teal-300">
-                React
-              </div>
-            </li>
-            <li className="mr-1.5 mt-2">
+          <p className="mt-2  text-sm leading-normal">{description}</p>
+          <ul id="techstack" className="flex flex-wrap">
+            <SkillTag skill={skill1}/>
+            <SkillTag skill={skill2}/>
+            <SkillTag skill={skill3} />
+            <SkillTag skill={skill4} />
+            <SkillTag skill={skill5} />
+
+            {/* <li className="mr-1.5 mt-2">
               <div className="flex rounded-full items-center text-xs tracking-wide bg-teal-400/20 px-3 py-1 font-medium leading-5 text-teal-300">
                 Typescript
               </div>
@@ -74,7 +75,7 @@ export default function Card1({time,product,title,company,description}) {
               <div className="flex rounded-full items-center text-xs tracking-wide bg-teal-400/20 px-3 py-1 font-medium leading-5 text-teal-300">
                 Tailwind
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
